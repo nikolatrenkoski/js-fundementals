@@ -1,0 +1,13 @@
+const MARKSWEIGHT = 78;
+const MARKSHEIGHT = 1.69;
+
+const JOHNWEIGHT = 92;
+const JOHNHEIGHT = 1.95;
+
+const MARKSBMI = MARKSWEIGHT / MARKSHEIGHT ** 2;
+
+const JOHNBMI = JOHNWEIGHT / JOHNHEIGHT ** 2;
+
+const markHigherBMI = MARKSBMI > JOHNBMI;
+
+console.log(markHigherBMI)
