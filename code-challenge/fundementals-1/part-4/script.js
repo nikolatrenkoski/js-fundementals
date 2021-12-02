@@ -11,7 +11,7 @@ normalTip = bill >= 50 && bill <= 300 ? `Your bill is ${bill}, the tip is ${norm
 console.log(normalTip)
 */
 
-const bill = 275;
+const bill = 200;
 
 const tip = bill >= 50 && bill <= 300 ? `Your bill will be ${bill}, your tip will be ${bill * 0.15}, total bill is ${(bill * 0.15) + bill}` : `Your bill will be ${bill}, your tip will be ${bill * 0.2}, total bill is ${(bill * 0.2) + bill}`;
 
