@@ -1,10 +1,3 @@
-/*
-const tip = 0.15
-const bill = 1000
-
-bill >= 50 && bill <= 300 ? console.log(`The bill is ${bill}, the tip is ${bill * tip} and the total value is ${bill * tip + bill}`) : console.log(`The bill is ${bill}, the tip is ${bill * 0.2} and the total value is ${bill * 0.2 + bill}`)
-*/
-
 function calcTip(bill, tip, total) {
     return console.log(`The bill is ${bill}, the tip is ${tip} and the total value is ${total}`)
 }
